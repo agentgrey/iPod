@@ -1,0 +1,78 @@
+.buttons {
+  width: 79%;
+  height: 48%;
+  border-radius: 50%;
+  background-color: #b3cde0;
+  box-shadow: 0 2px 5px #8298a8;
+  margin: auto;
+  margin-top: 34px;
+}
+.select {
+  position: absolute;
+    width:9%;
+    height:18%;
+    right: 580px;
+    top: 410px;
+    font-size: 18px;
+    border-radius: 50%;
+    color: #eaf2f8;
+    background-color: #6c8ebf;
+    box-shadow: 0 2px 5px #5a79a3;
+    border:none;
+}
+.menu {
+  position: absolute;
+  display: flex;
+  top: 270px;
+  left: 320px;
+  width: 50%;
+  height: 30%;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border:none;
+  background-color: transparent;
+}
+.backward {
+  position: absolute;
+  display: flex;
+  left: 375px;
+  bottom: 105px;
+  width: 25%;
+  height: 25%;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border:none;
+  background-color: transparent;
+}
+.forward {
+  position: absolute;
+  display: flex;
+  right: 233px;
+  bottom: 105px;
+  width: 25%;
+  height: 25%;
+  font-size: 25px;
+  /* justify-content: center; */
+  align-items: center;
+  border-radius: 50%;
+  border:none;
+  background-color: transparent;
+}
+.play {
+  position: absolute;
+  display: flex;
+  bottom: 0px;
+  left: 320px;
+  width: 50%;
+  height: 25%;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border:none;
+  background-color: transparent;
+}
