@@ -1,6 +1,6 @@
 .display {
-  width: 90%;
-  height: 45%;
+  width: 290px;
+  height: 255px;
   background-color: #c0d5e1;
   margin: auto;
   border-radius: 20px;
@@ -13,6 +13,9 @@
   height: 100%;
   width: 55%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.display-menu-hidden {
+  display: none;
 }
 
 .display-menu h2 {

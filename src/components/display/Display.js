@@ -11,7 +11,7 @@ class Display extends React.Component {
     render() {
         return (
             <div className="display">
-                <div className="display-menu">
+                <div className="display-menu display-menu-hidden">
                     <h2>Menu</h2>
                     <ul>
                     <li><Gallery /></li>

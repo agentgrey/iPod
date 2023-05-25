@@ -1,6 +1,6 @@
 .buttons {
-  width: 79%;
-  height: 48%;
+  width: 280px;
+  height: 270px;
   border-radius: 50%;
   background-color: #b3cde0;
   box-shadow: 0 2px 5px #8298a8;
@@ -9,10 +9,10 @@
 }
 .select {
   position: absolute;
-    width:9%;
-    height:18%;
-    right: 580px;
-    top: 410px;
+    width:120px;
+    height:120px;
+    right: 45%;
+    top: 415px;
     font-size: 18px;
     border-radius: 50%;
     color: #eaf2f8;
@@ -23,11 +23,10 @@
 .menu {
   position: absolute;
   display: flex;
-  top: 270px;
-  left: 320px;
-  width: 50%;
-  height: 30%;
-  font-size: 25px;
+  top: 355px;
+  left: 47%;
+  font-size: 18px;
+  font-weight: bold;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
@@ -37,10 +36,8 @@
 .backward {
   position: absolute;
   display: flex;
-  left: 375px;
-  bottom: 105px;
-  width: 25%;
-  height: 25%;
+  left: 40%;
+  bottom: 175px;
   font-size: 25px;
   justify-content: center;
   align-items: center;
@@ -51,13 +48,9 @@
 .forward {
   position: absolute;
   display: flex;
-  right: 233px;
-  bottom: 105px;
-  width: 25%;
-  height: 25%;
+  left: 57%;
+  bottom: 175px;
   font-size: 25px;
-  /* justify-content: center; */
-  align-items: center;
   border-radius: 50%;
   border:none;
   background-color: transparent;
@@ -65,14 +58,15 @@
 .play {
   position: absolute;
   display: flex;
-  bottom: 0px;
-  left: 320px;
-  width: 50%;
-  height: 25%;
+  bottom: 50px;
+  left: 48.5%;
   font-size: 30px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   border:none;
   background-color: transparent;
+}
+button i{
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }

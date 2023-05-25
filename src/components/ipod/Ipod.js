@@ -10,9 +10,21 @@ class Ipod extends React.Component {
         return (
             <div className="screen">
                 <Display />
-                <Buttons />
+                <Buttons 
+                        toggleMenu={this.toggleMenu}
+                        />
             </div>
         )
+    }
+
+     toggleMenu = () => {
+        let displayMenu = document.getElementsByClassName('display-menu')[0].classList;
+        if (displayMenu.contains('display-menu-hidden')) { 
+            displayMenu.remove('display-menu-hidden');
+        }
+        else {
+            displayMenu.add('display-menu-hidden');
+        }
     }
 }
 
